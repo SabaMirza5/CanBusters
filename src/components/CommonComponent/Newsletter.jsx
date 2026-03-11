@@ -59,7 +59,7 @@ export default function Newsletter() {
               viewport={{ once: true }}
               className="lg:text-2xl montserrat md:text-3xl text-xl xl:text-4xl font-bold"
             >
-              Schedule Your Garbage Pickup Today
+              Schedule Your Trash Can Service Today
             </motion.h3>
 
             <motion.p
@@ -69,11 +69,10 @@ export default function Newsletter() {
               viewport={{ once: true }}
               className="2xl:leading-9 md:leading-8 leading-5 md:text-base text-sm"
             >
-              Keep your home or business clean and hygienic with our fast and
-              reliable garbage can removal service.{" "}
-              <br className="lg:block hidden" />
-              Choose a convenient time, and our professional team will handle
-              your bins efficiently.
+              Make trash day simple and stress-free with our fast and reliable garbage can pickup service.
+
+              
+              Choose a convenient time, <br className="lg:block hidden" /> and our professional team will take your bins to the curb and return them after pickup — no heavy lifting required.
             </motion.p>
 
             <motion.button

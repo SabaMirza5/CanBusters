@@ -76,7 +76,7 @@ function Footer() {
             </h3>
           
             <p className="md:text-sm text-xs text-white pt-1 font-normal">
-              Where Efficient Garbage Pickup Meets Reliable Service, and Every Bin Tells a Story of Cleanliness!
+              Where Hassle-Free Trash Day Meets Reliable Service, and Every Bin Gets Handled On Time!
             </p>
             </div>
             </div>
@@ -122,9 +122,9 @@ function Footer() {
 
             <ul className="space-y-2 mt-4">
               {[
-                { label: "canbusters@gmail.com", to: "/" },
-                { label: "www.canbusters", to: "/aboutus" },
-                { label: "+44 8574 177303", to: "/forum" },
+                { label: "Canbusters1@gmail.com", to: "" },
+                { label: "www.canbusters", to: "/" },
+                { label: "7808326800", to: "" },
               ].map((item, index) => (
                 <motion.li key={index} variants={linkHover} whileHover="hover">
                   <Link

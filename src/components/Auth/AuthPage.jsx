@@ -54,8 +54,7 @@ const AuthPage = ({ isOpen, onClose }) => {
                 </h2>
 
                 <p className="text-sm opacity-90 max-w-xs mx-auto">
-                  Schedule your garbage can cleaning or removal service in just
-                  a few simple steps.
+               Schedule Your Garbage Can Service Quickly and Easily
                 </p>
               </div>
             </motion.div>

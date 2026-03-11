@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import Vector from "/Vector.png";
-import { FaHome, FaSprayCan, FaBuilding } from "react-icons/fa";
+import { FaHome, FaTruck, FaBuilding } from "react-icons/fa";
+
 
 export default function OurServices() {
   const sectionRef = useRef(null);
@@ -37,18 +38,18 @@ export default function OurServices() {
 const items = [
   {
     icon: FaHome,
-    title: "Residential Pickup",
-    desc: "Fast and reliable garbage can collection for homes, ensuring your bins are always clean, hygienic, and odor-free. Our team handles every pickup professionally and on time, giving you peace of mind.",
+    title: "Residential Trash Can Service",
+    desc: "Our residential service helps homeowners manage trash day easily. We take your garbage cans to the curb before pickup and return them after collection, so you never have to worry about heavy bins.",
   },
   {
     icon: FaBuilding,
-    title: "Commercial Pickup",
-    desc: "Professional garbage removal services for offices, shops, and businesses. We maintain a clean and healthy environment for staff and customers by collecting and managing waste efficiently and responsibly.",
+    title: "Vacation & Rental Property Service",
+    desc: "Ideal for vacation homes and rental properties. We ensure your garbage cans are taken out and returned on schedule, keeping your property organized even when you are away.",
   },
   {
-    icon: FaSprayCan,
-    title: "Bin Cleaning & Sanitization",
-    desc: "Our team thoroughly cleans and sanitizes your garbage bins regularly, removing unpleasant odors and bacteria. We help maintain a fresh, hygienic property for your home or business, every time.",
+    icon: FaTruck,
+    title: "Scheduled  Trash Service",
+    desc: "Our recurring trash day service makes life easier. We handle taking your garbage cans out and bringing them back, giving you a simple and reliable routine.",
   },
 ];
   return (
@@ -71,7 +72,7 @@ const items = [
             viewport={{ once: true }}
             className="lg:text-2xl md:text-3xl montserrat  text-2xl xl:text-4xl font-bold text-center z-10 relative"
           >
-            Why Can Busters
+            Our Can  Busters
             <span className="text-primary"> Services?</span>
           </motion.h3>
         </div>
@@ -83,7 +84,8 @@ const items = [
           viewport={{ once: true }}
           className="xl:mt-6 mt-3 2xl:leading-9 md:leading-8 leading-6 md:text-base text-sm text-text-color"
         >
-         Get fast and reliable garbage can pickup, professional bin cleaning, and effective pest & odor control — <br className="lg:block hidden" /> keeping your home or business fresh and hygienic.
+          We provide simple and reliable trash can pickup services that help homeowners, elderly residents, and vacation property owners  <br className="lg:block hidden" />  manage trash day without the hassle of moving heavy bins.
+        
         </motion.p>
       </div>
 

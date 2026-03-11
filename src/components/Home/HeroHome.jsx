@@ -16,15 +16,16 @@ const HeroSection = () => {
         <section className=" flex flex-col  mb-20 lg:flex-row items-center justify-between p-[5%] bg-white   ">
           <div className="w-full lg:w-1/2 z-10">
             <h1 className="lg:text-2xl montserrat md:text-3xl text-2xl xl:text-4xl xl:!leading-[50px] font-bold text-gray-800">
-              Welcome to Our Garbage Can Removal Service. Fast Pickup,
-              <span className="text-primary"> Cleaner Bins</span>
+             Welcome to Our Garbage Can Pickup Service — Fast and  
+
+             
+              <span className="text-primary"> Hassle-Free</span>
             </h1>
 
             <p className="text-text-color xl:mt-6 mt-3 md:leading-9 leading-7 md:text-base text-sm">
-              Are you tired of dealing with dirty, smelly garbage cans or
-              struggling to keep them clean? We make it easy! Our garbage can
-              removal and cleaning service helps keep your bins fresh, hygienic,
-              and odor-free with a simple and convenient pickup process.
+              Are you tired of remembering trash day or struggling to move heavy garbage cans to the curb? We make it easy. Our Garbage Can Runner service helps homeowners, elderly residents, and vacation property owners by taking their garbage cans out for pickup and returning them after collection.
+
+With our simple and reliable service, you never have to worry about missing trash day again.
             </p>
 
             <motion.button
@@ -38,7 +39,7 @@ const HeroSection = () => {
               whileTap={{ scale: 0.95 }}
               className="mt-3 shadow-md transition duration-300   border rounded-2xl text-white py-2 px-4 capitalize     bg-gradient-to-b from-[#97CA09] to-[#5f8005]"
             >
-              Book Your Bin Pickup
+             Book Your Trash Can Service
             </motion.button>
           </div>
 
@@ -83,8 +84,9 @@ const HeroSection = () => {
             <div className="relative">
               <div className="absolute md:-bottom-5 -bottom-10 w-64 z-20 xl:-right-20 lg:-right-16 md:-right-14  -right-2 bg-white  p-4 animate-fadeIn delay-1500                                                     border border-[#112A70] te shadow-2xl rounded-xl text-sm  animate-fadeIn delay-1000">
                 <p className="text-black text-xs">
-                  A trusted service helping homes and businesses maintain
-                  cleaner, odor-free garbage cans.
+                  
+
+                 A trusted service helping homeowners, elderly residents, and vacation property owners manage their trash day without the hassle.
                 </p>
               </div>
 

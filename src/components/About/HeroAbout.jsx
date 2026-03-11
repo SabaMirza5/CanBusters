@@ -25,17 +25,13 @@ const HeroAbout = () => {
         <div className="relative z-10 flex flex-col items-center text-center">
           <div className="lg:w-[80%] w-full">
             <h1 className="xl:text-4xl  montserrat lg:text-3xl md:text-3xl text-2xl xl:leading-[50px] font-bold text-gray-800">
-              Keep your home or business{" "}
-              <span className="text-primary">clean, fresh, and hygienic</span>{" "}
-              with ease.
+              Reliable Trash Can  
+              <span className="text-primary"> Assistance</span>{" "}
+            You Can Count On
             </h1>
 
             <p className="text-text-color xl:mt-6 mt-3 md:leading-9 leading-7 md:text-base text-sm">
-              Schedule your garbage pickup today and let our professional team
-              handle your bins efficiently. From fast residential and commercial
-              collection to regular bin cleaning and sanitization, we make sure
-              your property stays spotless and odor-free. Book now and enjoy a
-              hassle-free, hygienic environment every day.
+              Keep your home or property organized with ease. Schedule your trash can service today and let our professional team take your bins to the curb and return them after pickup. From fast residential and commercial collection to scheduled weekly service, we make sure your trash day is hassle-free and convenient. Book now and enjoy peace of mind every week.
             </p>
 
             <motion.button

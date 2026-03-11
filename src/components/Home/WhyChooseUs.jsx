@@ -17,7 +17,7 @@ const features = [
     ),
     title: "Fast Pickup",
     description:
-      "Schedule your garbage can pickup and our team will arrive on time to collect and remove your bins efficiently, ensuring a hassle-free experience.",
+      "Schedule your trash day service and our team will ensure your garbage cans are placed at the curb before pickup and returned safely after collection, providing a smooth and stress-free experience.",
   },
   {
     icon: (
@@ -25,7 +25,7 @@ const features = [
     ),
     title: "Easy Scheduling",
     description:
-      "Select the date and time that works best for you. Our online booking form makes scheduling your garbage pickup quick and convenient.",
+      "Choose the date and time that works best for you. Our simple online booking form makes scheduling your trash can service quick and convenient.",
   },
   {
     icon: (
@@ -33,7 +33,7 @@ const features = [
     ),
     title: "Customer Satisfaction",
     description:
-      "We take pride in keeping your bins clean and your home environment fresh. Our team ensures a professional, friendly, and reliable service every time.",
+      "We take pride in helping our customers manage trash day easily. Our team focuses on providing a professional, friendly, and dependable service every time.",
   },
   {
     icon: (
@@ -41,7 +41,7 @@ const features = [
     ),
     title: "Reliable Service",
     description:
-      "Our trained staff follows a systematic process to collect, clean, and remove bins efficiently, making sure nothing is overlooked.",
+      "Our team follows a simple and organized process to make sure your garbage cans are taken out and brought back in on time, ensuring you never have to worry about missing trash day.",
   },
 ];
 
@@ -108,10 +108,7 @@ export default function WhyChooseUs() {
             viewport={{ once: true }}
             className="text-text-color xl:mt-6 mt-3 2xl:leading-9 md:leading-8 leading-7 md:text-base text-sm"
           >
-            Our garbage can removal service is dedicated to keeping your home and
-            business environments clean and hygienic. We offer fast pickups,
-            easy scheduling, and a professional, friendly team that ensures your
-            bins are collected and maintained efficiently.
+      Our garbage can runner service is designed to make trash day easier for homeowners, elderly residents, and vacation property owners. We provide reliable assistance by taking your garbage cans out for pickup and returning them after collection, giving you one less thing to worry about.
           </motion.p>
         </div>
 

@@ -22,7 +22,7 @@ const BookingForm = ({ onSwitch }) => {
           Book a Pickup
         </h2>
         <p className="text-sm text-gray-500 mb-6">
-          Schedule your garbage can cleaning or removal service
+          Schedule your garbage can pickup and return service
         </p>
 
         <form className="md:space-y-4 space-y-2" onSubmit={handleSubmit}>

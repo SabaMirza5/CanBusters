@@ -1,7 +1,7 @@
 import React from "react";
 import WhatYouWillFind from "../Home/WhatYouWillFind";
 import Newsletter from "../CommonComponent/Newsletter";
-import Testimonials from "../CommonComponent/Testimonials";
+// import Testimonials from "../CommonComponent/Testimonials";
 import OurServices from "../About/OurServices";
 
 
@@ -11,7 +11,7 @@ function ServicesPage() {
       <OurServices/>
       <WhatYouWillFind/>
       <Newsletter />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </div>
   );
 }

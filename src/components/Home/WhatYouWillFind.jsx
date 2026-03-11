@@ -26,22 +26,22 @@ export default function WhatYouWillFind() {
     {
       icon: FaClock,
       title: "Reliable & On-Time Service",
-      desc: "Experience dependable garbage pickup that fits your schedule. Our team ensures timely service so your bins are always handled efficiently without delays or missed collections.",
+      desc: "Depend on us for prompt trash can pickup and return. Our team ensures your bins are placed at the curb before collection and brought back afterward, so your trash day is always smooth and worry-free.",
     },
     {
       icon: FaLeaf,
-      title: "Clean & Hygienic Environment",
-      desc: "We focus on maintaining a clean and fresh environment around your home or business. Our service helps eliminate odors, prevent mess, and keep your surroundings hygienic.",
+      title: "Hassle-Free Trash Day",
+      desc: "We make managing trash day simple. Whether it’s a one-time pickup or a scheduled weekly service, our team handles your garbage cans efficiently so you never have to lift a heavy bin.",
     },
     {
       icon: FaShieldAlt,
       title: "Safe & Professional Handling",
-      desc: "Our trained team follows professional waste handling practices to ensure your bins are collected and cleaned safely while maintaining the highest sanitation standards.",
+      desc: "Our trained team follows safe practices to handle your bins carefully. Every pickup and return is done with attention to detail, ensuring your property stays neat and organized.",
     },
     {
       icon: FaUsers,
       title: "Customer-Focused Experience",
-      desc: "We prioritize customer satisfaction by offering friendly service, flexible scheduling, and reliable support to ensure your waste management needs are always met.",
+      desc: "We prioritize your convenience by offering friendly service, flexible scheduling, and reliable support to make trash day easy and stress-free.",
     },
   ];
 
@@ -65,12 +65,7 @@ export default function WhatYouWillFind() {
           viewport={{ once: true }}
           className="mt-3 2xl:leading-9 md:leading-8 leading-6 md:text-base text-sm"
         >
-          Discover the benefits of choosing Can Busters for your garbage
-          management needs. Our services are designed to provide convenience,
-          cleanliness, and reliability.
-         
-          Experience a professional approach to waste pickup that keeps your
-          surroundings fresh and worry-free.
+     Discover the benefits of choosing Can Busters for your trash day needs. Our services are designed to provide convenience, reliability, and peace of mind. Experience a professional approach to garbage pickup that keeps your home or property organized and stress-free.
         </motion.p>
       </div>
 

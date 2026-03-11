@@ -45,7 +45,7 @@ const ContactUs = () => {
           </h3>
 
           <p className="mt-4 text-sm md:text-base text-text-color">
-            Have questions about our garbage can cleaning or pickup services?{" "}
+            Have questions about our <span className="text-primary font-bold">Can Busters</span> services?{" "}
             <br className="lg:block hidden" />
             Send us a message and our team will get back to you as soon as
             possible.
@@ -106,14 +106,11 @@ const ContactUs = () => {
             className="bg-gradient-to-b from-[#97CA09] to-[#5f8005] lg:w-[45%] w-full text-center text-white rounded-lg p-4 md:p-10 flex flex-col justify-center shadow-lg"
           >
             <h3 className="text-xl md:text-2xl font-semibold mb-4 montserrat">
-              Need a Garbage Can Pickup?
+           Need a Trash Can Pickup?
             </h3>
 
             <p className="text-sm md:text-base mb-6 md:!leading-10 leading-6">
-              We make garbage can cleaning and removal simple and convenient.
-              Schedule a pickup with our team and keep your bins clean,
-              odor-free, and hygienic. Our service is quick, reliable, and
-              designed to make your life easier.
+              We make trash day simple and convenient. Schedule a pickup with our team and let us take your bins to the curb and return them after collection. Our service is quick, reliable, and designed to make your life easier.
             </p>
 
             <motion.button

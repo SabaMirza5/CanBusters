@@ -2,7 +2,7 @@ import React from "react";
 import HeroHome from "../Home/HeroHome";
 import WhyChooseUs from "../Home/WhyChooseUs";
 import Newsletter from "../CommonComponent/Newsletter";
-import Testimonials from "../CommonComponent/Testimonials";
+// import Testimonials from "../CommonComponent/Testimonials";
 import OurServices from "../About/OurServices";
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
       <WhyChooseUs />
       <OurServices/>
       <Newsletter/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
     </div>
   );
 }
