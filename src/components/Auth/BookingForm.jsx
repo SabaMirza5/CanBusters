@@ -25,7 +25,7 @@ const BookingForm = ({ onSwitch }) => {
           Schedule your garbage can pickup and return service
         </p>
 
-        <form className="md:space-y-4 space-y-2" onSubmit={handleSubmit}>
+        <form className="md:space-y-3 space-y-2" onSubmit={handleSubmit}>
           <div className="flex items-center md:gap-3 gap-2 md:flex-row flex-col">
             <input
               type="text"
@@ -62,8 +62,15 @@ const BookingForm = ({ onSwitch }) => {
 
           <textarea
             placeholder="Additional Notes (Optional)"
-            className="input-field h-20 resize-none"
+            className="input-field h-16 resize-none"
           />
+          <p className="text-xs text-gray-600 mb-2">
+            <strong>Pricing:</strong>{" "}
+            <span className="text-primary font-bold">$20</span> per pickup for
+            regular properties,{" "}
+            <span className="text-primary font-bold">$45</span> for scheduled or
+            subscription services.
+          </p>
 
           <motion.button
             whileHover={{

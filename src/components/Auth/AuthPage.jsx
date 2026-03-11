@@ -59,7 +59,7 @@ const AuthPage = ({ isOpen, onClose }) => {
               </div>
             </motion.div>
 
-            <div className="p-5 lg:p-12 h-full flex items-center justify-center">
+            <div className="p-5 lg:p-10 h-full flex items-center justify-center">
               <BookingForm />
             </div>
           </motion.div>
