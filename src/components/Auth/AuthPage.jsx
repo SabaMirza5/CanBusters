@@ -25,9 +25,9 @@ const AuthPage = ({ isOpen, onClose }) => {
           >
             <button
               onClick={onClose}
-              className="absolute top-2 right-2 bg-gradient-to-b from-[#97CA09] to-[#5f8005] text-white rounded-full p-2 shadow z-10"
+              className="absolute md:top-2 top-1 md:right-2 right-1 bg-gradient-to-b from-[#97CA09] to-[#5f8005] text-white rounded-full p-2 shadow z-10"
             >
-              <HiX size={22} />
+              <HiX className="md:text-lg text-sm" />
             </button>
 
             <motion.div
@@ -59,7 +59,7 @@ const AuthPage = ({ isOpen, onClose }) => {
               </div>
             </motion.div>
 
-            <div className="p-5 lg:p-10 h-full flex items-center justify-center">
+            <div className="p-3 lg:p-10 h-full flex items-center justify-center  ">
               <BookingForm />
             </div>
           </motion.div>
