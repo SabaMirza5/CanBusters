@@ -73,7 +73,7 @@ const items = [
             className="lg:text-2xl md:text-3xl montserrat  text-2xl xl:text-4xl font-bold text-center z-10 relative"
           >
             Our Can  Busters
-            <span className="text-primary"> Services?</span>
+            <span className="text-primary"> Services</span>
           </motion.h3>
         </div>
 

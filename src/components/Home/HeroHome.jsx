@@ -16,16 +16,17 @@ const HeroSection = () => {
         <section className=" flex flex-col  mb-20 lg:flex-row items-center justify-between p-[5%] bg-white   ">
           <div className="w-full lg:w-1/2 z-10">
             <h1 className="lg:text-2xl montserrat md:text-3xl text-2xl xl:text-4xl xl:!leading-[50px] font-bold text-gray-800">
-             Welcome to Our Garbage Can Pickup Service — Fast and  
-
-             
+              Welcome to Our Garbage Can Pickup Service — Fast and
               <span className="text-primary"> Hassle-Free</span>
             </h1>
 
             <p className="text-text-color xl:mt-6 mt-3 md:leading-9 leading-7 md:text-base text-sm">
-              Are you tired of remembering trash day or struggling to move heavy garbage cans to the curb? We make it easy. Our Garbage Can Runner service helps homeowners, elderly residents, and vacation property owners by taking their garbage cans out for pickup and returning them after collection.
-
-With our simple and reliable service, you never have to worry about missing trash day again.
+              Are you tired of remembering trash day or struggling to move heavy
+              garbage cans to the curb? We make it easy. Our Garbage Can Runner
+              service helps homeowners, elderly residents, and vacation property
+              owners by taking their garbage cans out for pickup and returning
+              them after collection. With our simple and reliable service, you
+              never have to worry about missing trash day again.
             </p>
 
             <motion.button
@@ -39,7 +40,7 @@ With our simple and reliable service, you never have to worry about missing tras
               whileTap={{ scale: 0.95 }}
               className="mt-3 shadow-md transition duration-300   border rounded-2xl text-white py-2 px-4 capitalize     bg-gradient-to-b from-[#97CA09] to-[#5f8005]"
             >
-             Book Your Trash Can Service
+              Book Your Trash Can Service
             </motion.button>
           </div>
 
@@ -52,18 +53,18 @@ With our simple and reliable service, you never have to worry about missing tras
               className="relative z-10 w-72 md:w-96 animate-float"
             />
 
-            <div className="absolute xl:top-24 md:top-32 top-36 z-20  border border-[#112A70] w-64  xl:left-0 lg:-left-8 md:-left-2 -left-3 bg-white shadow-2xl rounded-xl xl:p-5 p-3 text-sm  animate-fadeIn delay-1000">
+            <div className="absolute xl:top-24 md:top-32 top-36 z-20  border border-[#112A70] w-64  xl:left-0 lg:-left-8 md:-left-2 -left-3 bg-white shadow-2xl rounded-xl xl:p-5 p-2 text-sm  animate-fadeIn delay-1000">
               <div className="flex items-center gap-2">
                 <img src={studentImg} alt="user" className=" " />
                 <p className="text-xs font-semibold text-black">2400+</p>
               </div>
 
-              <p className="font-semibold text-gray-800 montserrat">
+              <p className="font-semibold text-gray-800 montserrat md:text-base text-xs">
                 Satisfied Customers
               </p>
 
               <div className="flex items-center justify-between ">
-                <div className="flex items-center text-[#74808E] text-lg">
+                <div className="flex items-center text-[#74808E] md:text-lg text-base">
                   <IoStar className="" />
                   <IoStar className="" />
                   <IoStar className="" />
@@ -82,15 +83,15 @@ With our simple and reliable service, you never have to worry about missing tras
               </p>
             </div>
             <div className="relative">
-              <div className="absolute md:-bottom-5 -bottom-10 w-64 z-20 xl:-right-20 lg:-right-16 md:-right-14  -right-2 bg-white  p-4 animate-fadeIn delay-1500                                                     border border-[#112A70] te shadow-2xl rounded-xl text-sm  animate-fadeIn delay-1000">
-                <p className="text-black text-xs">
-                  
-
-                 A trusted service helping homeowners, elderly residents, and vacation property owners manage their trash day without the hassle.
+              <div className="absolute md:-bottom-5 -bottom-10 w-64 z-20 xl:-right-20 lg:-right-16 md:-right-14  -right-2 bg-white  md:p-4 p-2 animate-fadeIn delay-1500                                                     border border-[#112A70] te shadow-2xl rounded-xl text-sm  animate-fadeIn delay-1000">
+                <p className="text-black md:text-xs text-[10px]">
+                  A trusted service helping homeowners, elderly residents, and
+                  vacation property owners manage their trash day without the
+                  hassle.
                 </p>
               </div>
 
-              <div className="absolute md:-bottom-9 -bottom-12 z-20 xl:-right-16 md:-right-12 right-7  animate-fadeIn delay-1500">
+              <div className="absolute md:-bottom-9 -bottom-16 z-20 xl:-right-16 md:-right-12 right-7  animate-fadeIn delay-1500">
                 <FaQuoteRight className="text-[#97CA09] text-4xl" />
               </div>
             </div>
